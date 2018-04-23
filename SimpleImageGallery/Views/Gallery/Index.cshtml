@@ -1,0 +1,20 @@
+﻿@{
+    ViewData[ "Title" ] = "Index";    
+}
+@using SimpleImageGallery.Data;
+@using SimpleImageGallery.Models
+@model GalleryIndexModel
+
+<div class="continer body-content">
+    <div class="gallery-contetn">
+        @foreach( GalleryImage image in Model.Images ) {
+            <div class="gallery-image"></div>
+            <span>@image.Title</span>
+            <ul>
+                @foreach( var tag in image.Tags ) {
+                    <li>@tag.Description</li>
+                }
+            </ul>
+        }
+    </div>
+</div>
