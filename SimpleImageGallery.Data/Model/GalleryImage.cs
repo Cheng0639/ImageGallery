@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace SimpleImageGallery.Data
+namespace SimpleImageGallery.Data.Model
 {
     public class GalleryImage
     {

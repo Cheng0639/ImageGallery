@@ -1,13 +1,13 @@
-﻿using SimpleImageGallery.Data;
+﻿using SimpleImageGallery.Data.Model;
 using System.Collections.Generic;
 
 namespace SimpleImageGallery.Models
 {
-	public class GalleryIndexModel
-	{
+    public class GalleryIndexModel
+    {
 
-		public IEnumerable<GalleryImage> Images { get; set; }
+        public IEnumerable<GalleryImage> Images { get; set; }
 
-		public string SearchQuery { get; set; }
-	}
+        public string SearchQuery { get; set; }
+    }
 }
