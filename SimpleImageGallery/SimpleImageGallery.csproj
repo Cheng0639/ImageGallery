@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleImageGallery.Data\SimpleImageGallery.Data.csproj" />
+    <ProjectReference Include="..\SimpleImageGallery.Service\SimpleImageGallery.Service.csproj" />
   </ItemGroup>
 
 </Project>
